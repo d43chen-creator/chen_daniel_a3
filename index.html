@@ -27,6 +27,19 @@
       padding-top: 2em;
       padding-left: 1em;
     }
+    .layout{
+      display: flex;
+      align-items: center;
+    }
+    .stack{
+      flex-direction: column;
+    }
+    .stack p{
+      margin-bottom: 20px;
+    }
+    .stack p:last-child {
+      margin-bottom: 0px;
+    }
     nav{
       display: flex;
       align-items: center;
@@ -67,14 +80,18 @@
         </nav>
       </div>
     </div>
-    <img src="myself (1).png" alt="myself" width="400">
-    <p>
+    <div class="layout">
+      <img src="myself (1).png" alt="myself" width="500">
+      <div class="stack">
+        <p>
       “Hi, welcome to my Portfolio,
-I am currently a student at the 
-university of Waterloo”!
-    </p>
-    <p>
-      Motivated by my passion in design, I love to share my ideas, thoughts, and visuals in all team environment. I also appreciate hearing others' opinions and work. Overall, I feel confident, motivated and accomplished when communicating within a team environment.
-    </p>
+      I am currently a student at the 
+      university of Waterloo”!
+        </p>
+        <p>
+        Motivated by my passion in design, I love to share my ideas, thoughts, and visuals in all team environment. I also appreciate hearing others' opinions and work. Overall, I feel confident, motivated and accomplished when communicating within a team environment.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
